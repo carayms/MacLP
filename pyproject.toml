@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel", "pybind11"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maclp"
+version = "0.1.0"
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "numba",
+]
